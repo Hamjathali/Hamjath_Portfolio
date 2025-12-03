@@ -27,7 +27,7 @@ const PROJECTS = [
     desc: 'A Java full-stack system built with Spring Boot, REST APIs and React for easy student data entry and management. Backend is powered by PostgreSQL for reliable and scalable data storage. The application ensures smooth performance with secure CRUD operations and a modern, user-friendly interface.',
     ss: '/Project_Logo/Student_Logo.png',
     tech: ['React', 'Spring Boot', 'Java', 'REST API', 'PostgreSQL', 'Maven'],
-    live: '#',
+    live: 'https://hamjath-portfolio.vercel.app/projects',
     code: 'https://github.com/Hamjathali/C2TC_Sprint-2_Project.git'
   },
   {
