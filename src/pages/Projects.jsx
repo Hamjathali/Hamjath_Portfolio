@@ -2,6 +2,9 @@ import React from 'react'
 import { motion } from 'framer-motion'
 import { Github, ExternalLink } from 'lucide-react'
 
+
+
+
 const PROJECTS = [
   {
     title: '🌐 Smart AI-Based Network Intrusion Detection System',
