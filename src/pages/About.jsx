@@ -14,7 +14,7 @@ const AboutMe = () => {
         justifyContent: "center",
         background: "radial-gradient(circle at top, #0d0d0d, #000)",
         color: "white",
-        padding: "3rem 1rem",
+        padding: "0.5rem 1rem",
       }}
     >
       {/* --- About Me + Education Section --- */}
@@ -26,10 +26,10 @@ const AboutMe = () => {
           width: "100%",
           maxWidth: "1100px",
           textAlign: "left",
-          marginTop: "1rem",
+          marginTop: "0.2rem",
           lineHeight: 1.8,
           background: "rgba(255,255,255,0.04)",
-          padding: "1rem",
+          padding: "0.2rem",
           borderRadius: "18px",
           boxShadow: "0 0 25px rgba(0,255,200,0.08)",
           backdropFilter: "blur(10px)",
@@ -39,7 +39,8 @@ const AboutMe = () => {
         <h2
           style={{
             fontSize: "1.9rem",
-            marginBottom: "1.2rem",
+            marginBottom: "0.2rem",
+            marginTop: "0.2rem",
             background: "linear-gradient(90deg, var(--accent), var(--accent-2))",
             WebkitBackgroundClip: "text",
             color: "transparent",

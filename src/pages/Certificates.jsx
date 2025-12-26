@@ -121,9 +121,9 @@ export default function Certificates() {
   const [selectedCert, setSelectedCert] = useState(null);
 
   return (
-    <section className="container" style={{ padding: "40px 0" }}>
-      <div className="card" style={{ background: "#111", borderRadius: 12, padding: 24 }}>
-        <h2 style={{ fontSize: "1.8rem", color: "#fff", marginBottom: 4 }}>Certificates 🏅</h2>
+    <section className="container" style={{ padding: "10px 0" }}>
+      <div className="card" style={{ background: "#111", borderRadius: 12, padding: 10 }}>
+        <h2 style={{ fontSize: "1.8rem", color: "#fff", marginBottom: 2, }}>Certificates 🏅</h2>
         <p className="lead" style={{ color: "#aaa" }}>
           Explore my certifications — technical & others.
         </p>

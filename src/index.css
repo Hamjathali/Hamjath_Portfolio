@@ -41,7 +41,7 @@ body{
 .quick-links a:hover{transform:translateY(-4px);}
 
 /* container */
-.container{max-width:1200px;margin:28px auto;padding:0 20px}
+.container{max-width:1200px;margin:10px auto;padding:0 20px}
 
 /* card */
 .card{background:linear-gradient(180deg, rgba(255,255,255,0.02), rgba(255,255,255,0.01));border-radius:14px;padding:18px;border:1px solid rgba(255,255,255,0.03);box-shadow:0 10px 40px rgba(2,6,23,0.6)}
