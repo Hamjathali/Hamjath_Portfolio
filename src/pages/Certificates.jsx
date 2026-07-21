@@ -5,6 +5,7 @@ import { motion, AnimatePresence } from "framer-motion";
 const CERTS = {
   tech: [
     {
+<<<<<<< HEAD
       title: "Java Full Stack",
       org: "Revature",
       date: "April 2026",
@@ -19,6 +20,8 @@ const CERTS = {
       link: "/certs/Java_Completion_Cer.jpeg",
     },
     {
+=======
+>>>>>>> 60da670a2fddd01f30bf0ff5e9a452f31654a716
       title: " Python Essentials 1",
       org: "Cisco ",
       date: " Dec 2023",
@@ -32,7 +35,17 @@ const CERTS = {
       img: "/certs/Python_Essentials_2_certificate-1.png",
       link: "/certs/Python_Essentials_2_certificate-1.png",
     },
+<<<<<<< HEAD
     
+=======
+    {
+      title: "Java Course Completion",
+      org: "Udemy",
+      date: "Aug 2025",
+      img: "/certs/Java_Completion_Cer.jpeg",
+      link: "/certs/Java_Completion_Cer.jpeg",
+    },
+>>>>>>> 60da670a2fddd01f30bf0ff5e9a452f31654a716
     {
       title: " CCNA: Introduction to Networks",
       org: "Cisco",

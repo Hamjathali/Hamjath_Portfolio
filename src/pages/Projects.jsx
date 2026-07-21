@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 // import React from 'react'
 // import { motion } from 'framer-motion'
 // import { Github, ExternalLink } from 'lucide-react'
@@ -246,12 +247,16 @@
 // ---------------------------------------------------------------------------------------------------
 
 import React, { useState } from 'react'
+=======
+import React from 'react'
+>>>>>>> 60da670a2fddd01f30bf0ff5e9a452f31654a716
 import { motion } from 'framer-motion'
 import { Github, ExternalLink } from 'lucide-react'
 
 const PROJECTS = [
   {
     title: '🌐 Smart AI-Based Network Intrusion Detection System',
+<<<<<<< HEAD
     desc: 'An AI-powered Network Intrusion Detection System that captures live network traffic using Scapy, analyzes packets with deep learning models built on TensorFlow and Keras, and detects malicious activities in real time. The system provides an interactive Streamlit dashboard for live traffic monitoring, automatically blocks identified threats using iptables, and enhances network security through intelligent threat detection and automated response.',
     ss: '/Project_Logo/SNIDS_LOGO.png',
     tech: ['Python', 'Scapy', 'TensorFlow', 'Keras', 'Streamlit', 'iptables'],
@@ -292,6 +297,21 @@ const PROJECTS = [
     live: '#',
     code: 'https://github.com/Hamjathali/hospital-management-system',
     category: 'Java'
+=======
+    desc: 'AI-Powered Smart Network Intrusion Detection System with Deep-Learning Packet Analysis and Automated Threat Blocking that captures live network traffic, analyzes packets using deep-learning models, and instantly blocks malicious activities in real time.',
+    ss: '/Project_Logo/SNIDS_LOGO.png',
+    tech: ['Python', 'Scapy', 'TensorFlow', 'Keras', 'Streamlit','iptables'],
+    live: 'https://smart-nids-hrekv59nidzorjqsshgtqt.streamlit.app/',
+    code: 'https://github.com/Hamjathali/Smart-NIDS.git'
+  },
+  {
+    title: '🌾 RiceGuard Disease Detection System',
+    desc: 'A YOLOv12-based detection system that identifies rice leaf diseases with high accuracy in real time, helping farmers take timely action to prevent large-scale crop loss, while providing quick visual insights that support smarter and more efficient agricultural decision-making.',
+    ss: '/Project_Logo/RiceGuard_Logo.png',
+    tech: ['YOLOv12', 'Python', 'Streamlit', 'PyTorch', 'OpenCV', 'NumPy', 'Pandas'],
+    live: 'https://riceguarddiseaseproject-b3fvupt3ham7rhekhgwqpe.streamlit.app',
+    code: 'https://github.com/Hamjathali/RiceGuard_Disease_Project.git'
+>>>>>>> 60da670a2fddd01f30bf0ff5e9a452f31654a716
   },
   {
     title: '🎓 Student Management System',
@@ -299,6 +319,7 @@ const PROJECTS = [
     ss: '/Project_Logo/Student_Logo.png',
     tech: ['React', 'Spring Boot', 'Java', 'REST API', 'PostgreSQL', 'Maven'],
     live: '#',
+<<<<<<< HEAD
     code: 'https://github.com/Hamjathali/C2TC_Sprint-2_Project.git',
     category: 'Java'
   },
@@ -319,15 +340,24 @@ const PROJECTS = [
   live: '#',
   code: 'https://github.com/Hamjathali/Patient_Management_System',
   category: 'Java'
+=======
+    code: 'https://github.com/Hamjathali/C2TC_Sprint-2_Project.git'
+>>>>>>> 60da670a2fddd01f30bf0ff5e9a452f31654a716
   },
   {
     title: 'Q96 - Investment Tracker',
     desc: 'Q96 – Investment Tracker helps to predict future returns, and plan financial goals easily. it gives smart SIP suggestions and clear visual insights for better decisions.',
     ss: '/Project_Logo/Investment_Logo.png',
+<<<<<<< HEAD
     tech: ['Python', 'NumPy', 'Scikit-learn', 'Streamlit'],
     live: 'https://q96investmenttracker-gyejqgn9x4zreuqzxhkmp3.streamlit.app',
     code: 'https://github.com/Hamjathali/Q96_Investment_Tracker.git',
     category: 'ML'
+=======
+    tech: ['Python', 'NumPy', 'Scikit-learn','Streamlit'],
+    live: 'https://q96investmenttracker-gyejqgn9x4zreuqzxhkmp3.streamlit.app',
+    code: 'https://github.com/Hamjathali/Q96_Investment_Tracker.git'
+>>>>>>> 60da670a2fddd01f30bf0ff5e9a452f31654a716
   },
   {
     title: '📊 Portfolio Website',
@@ -335,22 +365,33 @@ const PROJECTS = [
     ss: '/Project_Logo/Portfolio_Logo.png',
     tech: ['React', 'Framer Motion', 'Tailwind CSS'],
     live: '#',
+<<<<<<< HEAD
     code: 'https://github.com/kunj2803/Kunj-Portfolio',
     category: 'All' // web/frontend — grouped here since it's not ML. Change if you'd rather it sit elsewhere.
+=======
+    code: 'https://github.com/kunj2803/Kunj-Portfolio'
+>>>>>>> 60da670a2fddd01f30bf0ff5e9a452f31654a716
   },
   {
     title: '🗣️ Language Translation Tool',
     desc: 'A real-time Streamlit translation tool using Googletrans for fast multilingual text conversion, featuring online/offline speech playback and a polished user interface.',
     ss: '/Project_Logo/Language_Logo.png',
+<<<<<<< HEAD
     tech: ['Streamlit', 'Python', 'Googletrans API', 'gTTS'],
     live: 'https://language-translation-tool-tyht3gjczbxxd2dbdbwm4.streamlit.app',
     code: 'https://github.com/Hamjathali/codealpha_tasks-Language-Translation-Tool.git',
     category: 'ML'
+=======
+    tech: ['Streamlit', 'Python','Googletrans API', 'gTTS', ],
+    live: 'https://language-translation-tool-tyht3gjczbxxd2dbdbwm4.streamlit.app',
+    code: 'https://github.com/Hamjathali/codealpha_tasks-Language-Translation-Tool.git'
+>>>>>>> 60da670a2fddd01f30bf0ff5e9a452f31654a716
   },
   {
     title: '🎓 IFET College InfoBot',
     desc: "An AI-powered InfoBot that gives instant answers to college-related queries using smart NLP and text similarity. Designed with Streamlit UI for a smooth, conversational experience.",
     ss: '/Project_Logo/InfoBot_Logo.png',
+<<<<<<< HEAD
     tech: ['Python', 'Streamlit', 'NLTK', 'Scikit-learn'],
     live: 'https://codealphatasksifet-infobot-g4rqbg3hl7aamvlt9rlvbk.streamlit.app',
     code: 'https://github.com/Hamjathali/codealpha_tasks_IFET-InfoBot.git',
@@ -368,6 +409,15 @@ export default function Projects() {
       ? PROJECTS
       : PROJECTS.filter((p) => p.category === activeFilter)
 
+=======
+    tech: ['Python', 'Streamlit', 'NLTK', 'Scikit-learn',],
+    live: 'https://codealphatasksifet-infobot-g4rqbg3hl7aamvlt9rlvbk.streamlit.app',
+    code: 'https://github.com/Hamjathali/codealpha_tasks_IFET-InfoBot.git'
+  }
+]
+
+export default function Projects() {
+>>>>>>> 60da670a2fddd01f30bf0ff5e9a452f31654a716
   return (
     <motion.section
       className="container"
@@ -385,6 +435,7 @@ export default function Projects() {
         >
           🚀 Projects
         </motion.h2>
+<<<<<<< HEAD
         <p className="text-gray-400 mb-6">
           A collection of my major works — blending research, AI innovation.
         </p>
@@ -451,6 +502,20 @@ export default function Projects() {
               initial={{ opacity: 0, y: 20, scale: 0.95 }}
               whileInView={{ opacity: 1, y: 0, scale: 1 }}
               transition={{ duration: 0.4, delay: idx * 0.1 }}
+=======
+        <p className="text-gray-400 mb-10">
+          A collection of my major works — blending research, AI innovation.
+        </p>
+
+        <div className="projects-grid" style={{ display: 'grid', gap: 24, gridTemplateColumns: 'repeat(auto-fit, minmax(320px, 1fr))' }}>
+          {PROJECTS.map((p, idx) => (
+            <motion.div
+              key={idx}
+              className="project-card"
+              initial={{ opacity: 0, y: 20, scale: 0.95 }}
+              whileInView={{ opacity: 1, y: 0, scale: 1 }}
+              transition={{ duration: 0.4, delay: idx * 0.15 }}
+>>>>>>> 60da670a2fddd01f30bf0ff5e9a452f31654a716
               whileHover={{ scale: 1.03 }}
               viewport={{ once: true }}
               style={{
@@ -526,8 +591,13 @@ export default function Projects() {
                     <motion.a
                       href="#"
                       onClick={(e) => {
+<<<<<<< HEAD
                         e.preventDefault();
                         window.scrollTo({ top: 0, behavior: 'smooth' });
+=======
+                        e.preventDefault(); // prevent page reload/404
+                        window.scrollTo({ top: 0, behavior: 'smooth' }); // optional: scroll to top
+>>>>>>> 60da670a2fddd01f30bf0ff5e9a452f31654a716
                       }}
                       whileHover={{ scale: 1.08 }}
                       style={{
@@ -571,7 +641,11 @@ export default function Projects() {
               </div>
             </motion.div>
           ))}
+<<<<<<< HEAD
         </motion.div>
+=======
+        </div>
+>>>>>>> 60da670a2fddd01f30bf0ff5e9a452f31654a716
       </div>
     </motion.section>
   )

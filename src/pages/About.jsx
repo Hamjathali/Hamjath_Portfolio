@@ -341,7 +341,7 @@ const AboutMe = () => {
                     marginBottom: "0.2rem",
                   }}
                 >
-                  <strong>Full Stack Developer Intern </strong> 
+                  <strong>Java Full Stack Developer Intern </strong> 
                 </p>
                 <p style={{ color: "rgba(255,255,255,0.7)" }}>
                   Working on an enterprise client project, building and enhancing microservices using Java, Spring Boot, GraphQL, Redis, JWT, Docker, and PostgreSQL. Implementing secure APIs, optimizing application performance with Redis caching, and collaborating on production-grade backend solutions in an Agile development environment.
