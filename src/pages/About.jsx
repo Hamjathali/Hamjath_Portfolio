@@ -39,54 +39,27 @@ const AboutMe = () => {
         <h2
           style={{
             fontSize: "1.9rem",
-            marginBottom: "0.2rem",
-            marginTop: "0.2rem",
+            // marginBottom: "rem",
+            // marginTop: "0.8rem",
             background: "linear-gradient(90deg, var(--accent), var(--accent-2))",
             WebkitBackgroundClip: "text",
             color: "transparent",
+            padding: "0 10px"
           }}
         >
           About Me
         </h2>
 
-        {/* --- Description --- */}
-        {/* <p
-          style={{
-            fontSize: "1rem",
-            color: "rgba(255,255,255,0.85)",
-            textAlign: "justify",
-          }}
-        >
-          Hi, I’m <strong>Hamjathali I</strong> — a passionate{" "}
-          <strong>Java Full Stack Developer</strong> and{" "}
-          <strong>AI/ML enthusiast</strong> focused on building efficient, scalable,
-          and reliable software applications. I work across frontend, backend, and
-          database layers with hands-on experience in Java, Spring Boot, REST APIs,
-          PostgreSQL, React, and Python.
-        </p>
-
-        <p style={{ fontSize: "1.1rem", color: "rgba(255,255,255,0.85)", textAlign: "justify", }}>
-            I’m deeply interested in intelligent systems and network security, which led
-            me to develop a{" "}
-            <strong>Smart AI-Based Network Intrusion Detection System</strong> using
-            Python, Scapy, and TensorFlow. This project strengthened my skills in data
-            preprocessing, real-time packet analysis, and deep learning–based intrusion
-            detection.
-        </p>
-
-        <p style={{fontSize: "1.1rem", color: "rgba(255,255,255,0.85)",textAlign: "justify"}}>
-            I enjoy solving technical challenges, optimizing system performance, and
-            integrating AI into real-world applications. I’m currently seeking
-            opportunities to apply my skills, learn from industry projects, and
-            contribute to impactful software or AI-driven solutions.
-        </p> */}
+        
               <p
         style={{
-          fontSize: "1rem",
+          fontSize: "1.2rem",
           color: "rgba(255,255,255,0.85)",
           textAlign: "justify",
+          padding: "0 20px"
+          
         }}
-      >
+        >
         Hi, I'm <strong>Hamjathali I</strong> — a passionate{" "}
         <strong>Java Full Stack Developer</strong> and{" "}
         <strong>AI/ML Engineer</strong> focused on building efficient, scalable,
@@ -95,7 +68,7 @@ const AboutMe = () => {
         REST APIs, gRPC, GraphQL, PostgreSQL, Redis, React, and Docker.
       </p>
 
-      <p style={{ fontSize: "1.1rem", color: "rgba(255,255,255,0.85)", textAlign: "justify" }}>
+      <p style={{ fontSize: "1.2rem", color: "rgba(255,255,255,0.85)", textAlign: "justify", padding: "0 20px" }}>
         On the backend, I've built microservices-based systems like a{" "}
         <strong>Hospital Management System</strong> using Spring Cloud, JWT-based
         API Gateways, and gRPC for high-performance inter-service communication.
@@ -104,7 +77,7 @@ const AboutMe = () => {
         response times.
       </p>
 
-      <p style={{ fontSize: "1.1rem", color: "rgba(255,255,255,0.85)", textAlign: "justify" }}>
+      <p style={{ fontSize: "1.2rem", color: "rgba(255,255,255,0.85)", textAlign: "justify", padding: "0 20px" }}>
         I'm equally driven by intelligent systems and network security, which led
         me to build a <strong>Smart AI-Based Network Intrusion Detection System</strong>{" "}
         using Python, Scapy, and TensorFlow, and{" "}
@@ -113,7 +86,7 @@ const AboutMe = () => {
         model training, and deploying ML models via Streamlit.
       </p>
 
-      <p style={{ fontSize: "1.1rem", color: "rgba(255,255,255,0.85)", textAlign: "justify" }}>
+      <p style={{ fontSize: "1.2rem", color: "rgba(255,255,255,0.85)", textAlign: "justify", padding: "0 20px" }}>
         I enjoy bridging full-stack development with AI-driven solutions 
         optimizing system performance, designing scalable architectures, and
         integrating machine learning into real-world applications. I'm currently
@@ -136,6 +109,7 @@ const AboutMe = () => {
                 "linear-gradient(90deg, var(--accent), var(--accent-2))",
               WebkitBackgroundClip: "text",
               color: "transparent",
+              padding: "0 10px"
             }}
           >
             Education
@@ -290,6 +264,7 @@ const AboutMe = () => {
                 "linear-gradient(90deg, var(--accent), var(--accent-2))",
               WebkitBackgroundClip: "text",
               color: "transparent",
+              padding: "0 10px"
             }}
           >
             Internship
