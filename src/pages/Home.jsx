@@ -14,7 +14,7 @@ import whatsappLogo from '../../public/whatsapp.png'
 
 export default function Home() {
   const professions = [
-    'Full-Stack Developer',
+    'Java Full-Stack Developer',
     'AI/ML Engineer',
     "Deep Learning Expert",
     'Network Enthusiast',
