@@ -321,7 +321,7 @@ const AboutMe = () => {
                 <p style={{ color: "rgba(255,255,255,0.7)" }}>
                   Working on an enterprise client project, building and enhancing microservices using Java, Spring Boot, GraphQL, Redis, JWT, Docker, and PostgreSQL. Implementing secure APIs, optimizing application performance with Redis caching, and collaborating on production-grade backend solutions in an Agile development environment.
                 </p>
-                <p style={{ color: "rgba(255,255,255,0.7)" }}>Completed: Jun 2026 – Present</p>
+                <p style={{ color: "rgba(255,255,255,0.7)" }}>Completed: Jun 2026 – Aug 2026</p>
                 <p style={{ color: "rgba(255,255,255,0.7)" }}>Location: Chennai, Tamil Nadu</p>
               </div>
             </motion.div>
